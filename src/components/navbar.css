@@ -1,0 +1,44 @@
+.navbar {
+  width: 100%;
+}
+.menu {
+  display: none;
+}
+.menu-box {
+  opacity: 0;
+  position: absolute;
+  padding: 5px;
+  border: 1px solid;
+  right: 40px;
+  top: 10px;
+}
+.menu-box ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.menu-box li {
+  margin: 2px;
+  width: 9rem;
+}
+.menu-box:hover {
+  display: block;
+}
+.menu-box ul li {
+  box-shadow: 1px 1px 3px 0px #f1356d;
+}
+.menu:hover .menu-box {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 520px) {
+  .navbar .links {
+    display: none;
+  }
+  .menu {
+    border: 1px solid #f1356d;
+    display: block;
+    position: relative;
+    margin-left: 50vw;
+  }
+}
