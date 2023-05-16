@@ -66,6 +66,9 @@ a {
   font-size: 20px;
   margin-bottom: 8px;
 }
+.content-preview h2:hover {
+  color: #f1356dd0;
+}
 
 .content-preview:hover {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
@@ -79,4 +82,7 @@ button {
   margin: 10px;
   border-radius: 8px;
   cursor: pointer;
+}
+button:hover {
+  background: #f1356dd0;
 }
